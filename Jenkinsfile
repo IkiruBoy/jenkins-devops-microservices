@@ -12,20 +12,18 @@ node {
 			
 
 		}
-	}
-	stages {
-		stage('Test') {
-			steps{
-				echo "Test"
+	
+			stage('Test') {
+				steps{
+					echo "Test"
 			}
 			
 
 		}
-	}
-	stages {
-		stage('InTest') {
-			steps{
-				echo "InTest"
+	
+			stage('InTest') {
+				steps{
+					echo "InTest"
 			}
 			
 
