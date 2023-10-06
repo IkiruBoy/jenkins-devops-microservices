@@ -1,7 +1,35 @@
 //SCRIPTED
+
+//DECLARATIVE
+
 node {
-	echo "Build"
-	echo "Test"
-	echo "InTest"
-	
+	agent any
+	stages {
+		stage('Build') {
+			steps{
+				echo "Build"
+			}
+			
+
+		}
+	}
+	stages {
+		stage('Test') {
+			steps{
+				echo "Test"
+			}
+			
+
+		}
+	}
+	stages {
+		stage('InTest') {
+			steps{
+				echo "InTest"
+			}
+			
+
+		}
+	}
+
 }
