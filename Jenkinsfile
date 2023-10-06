@@ -1,12 +1,7 @@
 //SCRIPTED
 node {
-	#stage('Build') {
-		echo "Build"
-	#}
-	#stage('Test') {
-		echo "Test"
-	#}
-	#stage('Integration Test') {
-		echo "InTest"
-	#}
+	echo "Build"
+	echo "Test"
+	echo "InTest"
+	
 }
